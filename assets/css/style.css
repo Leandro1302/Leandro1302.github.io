@@ -536,6 +536,11 @@ img, svg {
 /* ---------- Projects page header ---------- */
 .page-header {
   padding-top: 5rem;
+  padding-bottom: 0;
+}
+
+.projects-page {
+  padding-top: 1.5rem;
 }
 
 .back-link {
