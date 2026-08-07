@@ -255,7 +255,8 @@ img, svg {
 }
 
 .hero-text {
-  max-width: 560px;
+  max-width: none;
+  white-space: nowrap;
   color: var(--text-dim);
   font-size: 1.05rem;
   margin-top: 1.1rem;
@@ -722,6 +723,10 @@ img, svg {
 @media (max-width: 560px) {
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    white-space: normal;
   }
 }
 
