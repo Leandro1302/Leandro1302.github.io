@@ -491,7 +491,7 @@ img, svg {
 /* ---------- Skills ---------- */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr;
   gap: 1.75rem;
 }
 
@@ -647,7 +647,7 @@ img, svg {
   }
 
   .skills-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -701,12 +701,6 @@ img, svg {
 
   .navbar.open .nav-toggle span:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
-  }
-}
-
-@media (max-width: 560px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
   }
 }
 
